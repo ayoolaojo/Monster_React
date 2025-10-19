@@ -14,8 +14,10 @@ import UserStatus from './components/userStatus'
 import Greet from './components/Greet'
 import StyledCard from './components/StyledCard'
 import ProfileCard from './components/ProfileCard'
+import Counter from './components/Counter'
 const App = () => {
   return <div>
+       <Counter/>
       <StyledCard/>
       <ProfileCard/>
       <Header/>
